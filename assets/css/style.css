@@ -114,6 +114,29 @@ h2 {
 #facts-section h2 {
     text-align: center;
     padding: 20px;
-    letter-spacing: 2px;
+    color: inherit;
 }
+
+.facts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.facts-box {
+    max-width: 450px;
+    margin: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+    background-color: #e4e6c3;
+    box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+
+
+
 
