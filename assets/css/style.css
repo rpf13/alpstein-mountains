@@ -20,8 +20,9 @@ header {
 
 h1,
 h2 {
-    font-family: 'EB Garamonds', serif;
+    font-family: 'EB Garamond', serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Navbar w. Flexbox for responsive design */
@@ -58,4 +59,26 @@ h2 {
 .nav-list a:hover {
     color: #a8b39c;
     border-bottom: 2px solid #a8b39c;
+}
+
+
+/* Hero Image with Title */
+
+#main-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    background: url('../images/p10_aescher.webp') no-repeat center right;
+    height: 100%;
+    background-size: cover;
+
+
+}
+
+#main-image-text {
+
 }
