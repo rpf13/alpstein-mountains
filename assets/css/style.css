@@ -4,8 +4,58 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Playfair Display', serif;
+    color: #121113;
+}
+
+/* Header and Headings */
+
+header {
+    background-color: #F7F7F2;
+}
+
+h1,
+h2 {
+    font-family: 'EB Garamonds', serif;
+    text-transform: uppercase;
+}
+
+/* Navbar w. Flexbox for responsive design */
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+
+}
+
+.nav-list li {
+    flex-grow: 0;
+}
+
+#nav-home {
+    font-size: 1.5rem;
+}
+
+.nav-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid #121113;
+}
+
+.nav-list a:hover {
+    color: #a8b39c;
+    border-bottom: 2px solid #a8b39c;
 }
