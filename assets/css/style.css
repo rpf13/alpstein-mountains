@@ -109,6 +109,7 @@ h2 {
 
 #facts-section {
     background-color: #F7F7F2;
+    padding-bottom: 25px;
 }
 
 #facts-section h2 {
@@ -124,6 +125,7 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     /* gap: 1rem; -> not sure to use gap since I have margin in child */
+
 
 }
 
