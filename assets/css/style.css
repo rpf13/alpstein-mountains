@@ -80,6 +80,15 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+#hero-image-gallery {
+    background: url('../images/p20_stunningview.webp') no-repeat center right;
+    height: 100%;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes hero-image-zoom {
     from {
         transform: scale(1);
@@ -137,6 +146,18 @@ h2 {
     border-radius: 10px;
     padding: 1.5rem;
     flex: 1 1 45ch;
+}
+
+/* Gallery Section */
+
+.gallery-parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-parent > * {
+
 }
 
 /* Footer */
