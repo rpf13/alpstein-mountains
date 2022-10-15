@@ -125,8 +125,6 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     /* gap: 1rem; -> not sure to use gap since I have margin in child */
-
-
 }
 
 .facts-box {
@@ -141,7 +139,40 @@ h2 {
     flex: 1 1 45ch;
 }
 
+/* Footer */
 
+footer {
+    background-color: #222725;
+    height: 90px;
+}
 
+footer p {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: .9rem;
+}
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+}
 
+footer a:hover {
+    color: #a8b39c;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1rem;
+    padding: 1rem;
+    color: #F7F7F2;
+}
