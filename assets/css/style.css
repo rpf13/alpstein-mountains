@@ -62,25 +62,25 @@ h2 {
 }
 
 
-/* Hero Image with Title */
+/* Hero Image with Title and Zoom Effect */
 
-#main-outer {
+.hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#main-image {
+#hero-image-main {
     background: url('../images/p10_aescher.webp') no-repeat center right;
     height: 100%;
     background-size: cover;
-    animation-name: main-image-zoom;
+    animation-name: hero-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes main-image-zoom {
+@keyframes hero-image-zoom {
     from {
         transform: scale(1);
     }
@@ -89,7 +89,7 @@ h2 {
     }
 }
 
-#main-image-text {
+.hero-image-text {
     font-size: 1.75rem;
     padding: 1rem;
     text-align: center;
@@ -100,7 +100,7 @@ h2 {
     left: 50%;
 }
 
-#main-image-text h1 {
+.hero-image-text h1 {
     color: #F7F7F2;
     letter-spacing: 3px;
 }
