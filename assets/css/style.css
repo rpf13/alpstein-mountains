@@ -156,8 +156,9 @@ h2 {
     width: 100%;
 }
 
-.gallery-parent > * {
-
+.gallery-parent > img {
+    flex: 1;
+    padding: 1rem;
 }
 
 /* Footer */
