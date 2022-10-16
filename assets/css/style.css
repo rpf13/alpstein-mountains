@@ -145,6 +145,23 @@ h2 {
     flex: 1 1 45ch;
 }
 
+/* Video Section w. Flexbox to be responsive */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #F7F7F2;
+}
+
+.video-box {
+    margin: 15px 15px 25px 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+    border-radius: 10px;
+}
+
 /* Gallery Section with Flexbox for responsive design */
 
 .gallery-container {
