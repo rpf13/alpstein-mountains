@@ -150,15 +150,12 @@ h2 {
 .video-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
     background-color: #F7F7F2;
 }
 
 .video-box {
     margin: 15px 15px 25px 15px;
-    text-align: justify;
-    line-height: 1.5rem;
     border-radius: 10px;
 }
 
