@@ -239,6 +239,10 @@ h2 {
     flex: 1 1 20ch;
 }
 
+.hike-container i {
+    font-size: 150%;
+    color: #222725;
+}
 
 .tours-box h3 {
     text-align: center;
