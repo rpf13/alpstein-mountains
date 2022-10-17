@@ -86,6 +86,15 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+#hero-image-tours {
+    background: url('../images/p20_through_saxer.webp') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes hero-image-zoom {
     from {
         transform: scale(1);
