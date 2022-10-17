@@ -192,6 +192,14 @@ h2 {
     vertical-align: middle;
 }
 
+
+/* Maps Section */
+
+.gmaps {
+    width: 100%;
+    height: 250px;
+}
+
 /* Footer */
 
 footer {
