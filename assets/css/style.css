@@ -192,6 +192,45 @@ h2 {
     vertical-align: middle;
 }
 
+/* Tours Section */
+
+#tours-section {
+    background-color: #F7F7F2;
+    padding-bottom: 25px;
+}
+
+#tours-section h2 {
+    text-align: center;
+    padding: 20px;
+    color: inherit;
+}
+
+.tours-container {
+    display: flex;
+    /* justify-content: center; IMO not needed since only 2 child boxes */
+    /* align-items: center; not sure since without boxes would always be equal size */
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 1rem; -> not sure to use gap since I have margin in child */
+}
+
+.tours-box {
+    margin: 0 15px 0 15px;
+    /* margin: 15px 15px 25px 15px; maybe more beautiful? */
+    text-align: justify;
+    line-height: 1.5rem;
+    background-color: #e4e6c3;
+    box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1 1 45ch;
+}
+
+.tours-box h3 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
 
 /* Maps Section */
 
