@@ -55,7 +55,7 @@ h2 {
 }
 
 .nav-list a:hover {
-    color: #a8b39c;
+    color: #656d61;
     border-bottom: 2px solid #a8b39c;
 }
 
@@ -68,31 +68,27 @@ h2 {
     position: relative;
 }
 
-#hero-image-main {
-    background: url('../images/p10_aescher.webp') no-repeat center right;
+[id^=hero-image-]{
     height: 100%;
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+#hero-image-main {
+    background: url('../images/p10_aescher.webp') no-repeat center right;
+    background-size: cover;
 }
 
 #hero-image-gallery {
     background: url('../images/p20_stunningview.webp') no-repeat center right;
-    height: 100%;
     background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 #hero-image-tours {
     background: url('../images/p20_through_saxer.webp') no-repeat center center;
-    height: 100%;
     background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 @keyframes hero-image-zoom {
@@ -277,7 +273,7 @@ footer p {
 }
 
 .footer-link a:hover {
-    color: #a8b39c;
+    color: #656d61;
 }
 
 .social-networks {
