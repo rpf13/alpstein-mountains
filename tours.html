@@ -125,9 +125,10 @@
         <div class="contact-container">
             <form class="contact-box" action="confirmation.html">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="full_name" required>
+                <input type="text" id="name" name="full_name" class="text-input" required>
+
                 <label for="tours">Choose a Tour</label>
-                <select id="tours" name="tours" required>
+                <select id="tours" name="tours" required class="text-input">
                     <option value="">Make a choice</option>
                     <option value="Aescher-Ebenalp">Mountain Inn Aescher - Ebenalp</option>
                     <option value="Way of Cross">The Way of the Cross</option>
@@ -136,17 +137,15 @@
                     <option value="Seealpsee">Mountain Inn Seealpsee</option>
                     <option value="Kronberg">Ridge walk on the Kronberg</option>
                 </select>
+
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" class="text-input" required>
                 <p>Newsletter</p>
                 <label for="yes">Yes</label>
                 <input type="radio" id="yes" name="newsletter" value="yes" required>
                 <label for="no">No</label>
                 <input type="radio" id="no" name="newsletter" value="no">
                 <input type="submit" value="submit">
-
-
-
             </form>
         </div>
     </section>
