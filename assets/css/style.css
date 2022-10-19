@@ -123,6 +123,15 @@ h3 {
     letter-spacing: 3px;
 }
 
+/* Hero image section of contacts confirmation page w. different values than other hero image parts */
+
+#hero-outer-conf {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-img-conf-text {
     font-size: 1.4rem;
     padding: 1rem;
