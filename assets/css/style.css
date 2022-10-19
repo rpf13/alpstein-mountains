@@ -306,6 +306,25 @@ h3 {
     padding: 3px;
 }
 
+.text-input:hover {
+    border-color: #222725;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #222725;
+    color: #f7f7f2;
+    display: inline-block;
+}
+
+.submit-button:hover {
+    background-color: #f7f7f2;
+    color: #222725;
+}
 
 /* Maps Section */
 
