@@ -1,54 +1,65 @@
-# __Alpstein Mountains__
-The Alpstein Mountains are a part of the Appenzell Alps, located in eastern Switzerland. They are known for ther stunning and beautiful landscapes and as a resort to hike, relax and enjoy nature.
-This site aims to show the beautiful landscapes and give some advice for hiking tours as well as some infos about their location.
+# Alpstein Mountains
+The Alpstein Mountains are a part of the Appenzell Alps, located in eastern Switzerland. They are known for ther stunning and beautiful landscape and as a resort to hike, relax and enjoy nature.
+This site is a starting point for anyone who wants to discover the Alpstein Mountains. The key point is to give a brief overview about the history and geology, show the beautiful landscapes and give some advice for hiking tours. Furthermore it serves as a contact point for taking a guided hike.
     
-    
->TODO: amiresponisive image
+Link to deployed site: [Alpstein Mountains](https://rpf13.github.io/alpstein-mountains/)
 
-## __Contents__
+![Am I Responsive?](docs/testing/amiresponsive.png)
 
-## __UX__
-The overall design is based on a clear, sleek design with minimalistic colours to make sure, the content speaks for itself.
 
-### __User Stories__
+## Contents
+
+>TODO: Add links to each sections of the README
+
+---
+
+## UX & Design
+The overall design is based on a clear, sleek design with minimalistic colors to make sure, the content speaks for itself.
+
+This site has been built with the "mobile first" approach in mind. This results in a very responsive and easy to navigate site, independet of the medium, which is used to access it.
+
+### User Stories
 - As a visiting user, I would like to be immediately attracted by a stunning big picture of the Alpstein Mountains 
 - As a visiting user, I would like to gain informations about the Alpstein Mountains
+- As a visiting user, I would like to see a video, showing the beautiful area
 - As a visiting user, I would like to enjoy a minimalistic web design, where the beautifulness of the mountains, shown via the pictures, speaks for itself
 - As a visiting user, I would like to see a gallery of pictures to get an impression of the landscape
 - As a visiting user, I would like to get some information about recommended tours
 - As a visiting user, I would like to have a contact form to get more informations
-- As a visiting user, I would like to see a map in order to understand, where these mountains are located
+- As a visiting user, I would like to see a map of the area, in order to understand, where these mountains are located
 
-### __Color Scheme__
-The colors chosen for this site should follow the natural colors of the landscapes shown in the images. Colors should be minimalistic but supportive and not distrub the look of the images.
+### Color Scheme
+The colors chosen for this site follow the natural colors of the landscapes shown in the images. Colors are minimalistic and supportive, but do not distrub the look of the images.
 I used [Coolors.co](https://coolors.co/f7f7f2-e4e6c3-a8b39c-222725-121113) to choose a visually appealing set of colors.
 
-![Color Scheme](https://github.com/rpf13/alpstein-mountains/blob/main/docs/Coolors_Alpstein_Mountains.png)
+![Color Scheme](docs/testing/Coolors_Alpstein_Mountains.png)
 
-### __Typography__
+### Typography
 I used [Google Fonts](https://fonts.google.com/) to choose and import clear and appealing fonts. "EB Garamond" for headers and "Playfair Display" for text. "Serif" acts as a backup font.
 
-![EB Garamond](https://github.com/rpf13/alpstein-mountains/blob/main/docs/Font_EB_Garamond.png)
+![EB Garamond](docs/testing/Font_EB_Garamond.png)
 
-![Playfair Display](https://github.com/rpf13/alpstein-mountains/blob/main/docs/Font_Playfair_Display.png)
+![Playfair Display](docs/testing/Font_Playfair_Display.png)
     
-### __Wireframes__
+### Wireframes
 As an initial step, before any code has been written, I have used Balsamiq to create a Mobile and a Desktop version of each site.
 
-[Mobile Wireframes](https://github.com/rpf13/alpstein-mountains/blob/main/docs/wireframes/Mobile.png)
+[Mobile Wireframes](docs/wireframes/Mobile.png)
 
-[Desktop Wireframes](https://github.com/rpf13/alpstein-mountains/blob/main/docs/wireframes/Desktop.png)
+[Desktop Wireframes](docs/wireframes/Desktop.png)
      
-## __Features__
+## Features
 briefly explain the project
     
-### __Existing Features__
+### Existing Features
 list out all of your project's features, and make sure to include a screenshot of each!!
     
-### __Features Left to Implement__
+### Features Left to Implement
 have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
+
+### Accessibility
     
-## __Technologies Used__
+## Technologies Used
 I used the following technologies and resources to create this site:
 
 - [HTML5](https://www.w3.org/standards/webdesign/htmlcss)
@@ -71,30 +82,49 @@ I used the following technologies and resources to create this site:
     - Gitpod has been used as the local IDE environment
 - [Am I responsive?](https://ui.dev/amiresponsive)
     - Am I responsive has been used to show an image of the site on various devices
+- [Custom Youtube Embed Generator](https://www.classynemesis.com/projects/ytembed/)
+    - The Custom Youtube Embed Generator has been used to set and remove YT features
+- [Bitly](https://bitly.com)
+    - Bitly has been used to shorten the URL's for the tours hiking link section
 
+---
 
+## Development
 
+>make a note about how I did the commit messages, my multiline approach and the tags I did use
+>explain why I’ve used flexbox on single box sections like video and contact form (future proof, …)
 
->TODO: Finish list with all tools
-    
-## __Testing__
+---
+
+## Testing
 "For all testing, please refer to the [TESTING.md](TESTING.md) file."
+
+---
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the [GitHub repository](https://github.com/rpf13/alpstein-mountains), navigate to the Settings tab
+  - In the Code and automation section, click on pages
+  - From the branch section drop-down menu, select the Main Branch
+  - Then click save. After a few minutes you can see that the page is deployed and live, showing the related link.
+
+The live link can be found here [Alpstein Mountains](https://rpf13.github.io/alpstein-mountains/)
     
-## __Deployment__
-document all necessary steps you did in order to deploy this project (GitHub Pages, Heroku, etc.)
-    
-### __Local Deployment__
+### Local Deployment
 document all the necessary steps someone else can take in order to make a local copy of your project, like cloning, forking, etc.
-    
-## __Credits__
+
+---
+
+## Credits
 explain about any particular places you took inspiration from
-    
-### __Content__
+
+### Content
 list out any URLs or links where you might've borrowed a snippet of code, or element
     
-### __Media__
+### Media
 list out any URLs for images/videos/audios you've borrowed from online (Markdown Table works best here!)
     
-### __Acknowledgements__
+### Acknowledgements
 list out any acknowledgements you have, if any... tutor support? fellow Slack student help? spouse, loved one, family member, etc.
     
