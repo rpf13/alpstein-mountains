@@ -116,6 +116,8 @@ h3 {
     transform: translate(-50%, -50%);
     top: 15%;
     left: 50%;
+    background-color: rgba(18, 17, 19, 0.6);
+    border-radius: 10px;
 }
 
 .hero-image-text h1 {
@@ -141,8 +143,9 @@ h3 {
     transform: translate(-50%, -50%);
     top: 20%;
     left: 50%;
-    color: white;
-    background-color: rgba(34, 39, 37, 0.8);
+    color: #F7F7F2;
+    text-shadow: 4px 4px 2px black;
+    background-color: rgba(18, 17, 19, 0.6);
     border-radius: 10px;
 }
 
