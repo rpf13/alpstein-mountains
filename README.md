@@ -101,6 +101,8 @@ I used the following technologies and resources to create this site:
 
 ---
 
+<br>
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -110,11 +112,23 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Then click save. After a few minutes you can see that the page is deployed and live, showing the related link.
 
 The live link can be found here [Alpstein Mountains](https://rpf13.github.io/alpstein-mountains/)
+
+<br>
     
 ### Local Deployment
-document all the necessary steps someone else can take in order to make a local copy of your project, like cloning, forking, etc.
+
+If you want to make your own copy of this project and work on it, you can clone it locally to your IDE of choice.
+Inside the terminal of your IDE, use the following command:
+```
+git clone git@github.com:rpf13/alpstein-mountains.git
+```
+
+If you are using your IDE inside Gitpod or generally prefer to work with Gitpod instead of a local IDE, you can open
+this project directly in Gitpod and and create your own workspace with it. To do so, klick on the following link: [Open in Gitpod](https://gitpod.io/#https://github.com/rpf13/alpstein-mountains)
 
 ---
+
+<br>
 
 ## Credits
 explain about any particular places you took inspiration from
