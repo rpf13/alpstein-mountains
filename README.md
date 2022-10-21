@@ -113,6 +113,18 @@ The tours site is the main entry point to get active or to think about getting a
 
     ![Appenzell Tourism Hiking Tours](docs/testing/03-appenzell_tourism_ext_content.png)
 
+- The Ready For a Hike contact form
+    - This section is basically a contact form for users who want to come on a guided tour or get more information about a particular tour. The user must enter his name, email address and choose the tour he is interested in. He also has to make a choice if a newsletter is wanted or not. All fields are mandatory.
+
+    ![Contact Form](docs/testing/03-contactform.png)
+
+- The embeded Google Map
+    - The last section of the site has a Google Map embeded. The displayed map is "centered" to the Alpstein waypoint and shows the mount Saentis surrounded by the Alpstein. It gives the user the possiblity to quickly find and navigate to the area. The map is fully interactive, can be zoomed or opened on a larger scale in a new browser window.
+
+    ![Goolge Maps Section](docs/testing/03-gmaps.png)
+
+
+
 ---
 
 
