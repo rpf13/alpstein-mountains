@@ -114,7 +114,7 @@ The tours site is the main entry point to get active or to think about getting a
     ![Appenzell Tourism Hiking Tours](docs/testing/03-appenzell_tourism_ext_content.png)
 
 - The Ready For a Hike contact form
-    - This section is basically a contact form for users who want to come on a guided tour or get more information about a particular tour. The user must enter his name, email address and choose the tour he is interested in. He also has to make a choice if a newsletter is wanted or not. All fields are mandatory.
+    - This section is basically a contact form for users who want to come on a guided tour or get more information about a particular tour. The user must enter his name, email address and choose the tour he is interested in. He also has to make a choice if a newsletter is wanted or not. All fields are mandatory. After pushing the submit button, he will be redirected to the [confirmation site](#confirmation-site).
 
     ![Contact Form](docs/testing/03-contactform.png)
 
@@ -123,6 +123,16 @@ The tours site is the main entry point to get active or to think about getting a
 
     ![Goolge Maps Section](docs/testing/03-gmaps.png)
 
+
+### Confirmation Site
+
+The confirmation site is not a page, which is directly accessible to the visiting user. However, it play an important part, because once the user has filled in the contact form on the [tours site](#tours-site) and has clicked the submit button, he needs a feedback, that this *action* was succesful.
+
+Once redirected to this confirmation page, the user gets welcomed by a big, funny hero image displaying a cow. Since this is more or less the only content on this site (the informative text is an overlay), the hero image has a bigger height on this site than on the others. Furthermore, the title text is 5% more lowered in order to have the users attention pointed to it.
+
+The text displayed in the title text box give the user confirmation, that his action of sending the form, was successful. Furthermore it tells the user what just will happen - he will be redirected back in a few seconds. The timer is set to 10s and as the text says, it points back to the page where he came from, the tours site.
+
+![Confirmation Site](docs/testing/04-confirmation.png)
 
 
 ---
