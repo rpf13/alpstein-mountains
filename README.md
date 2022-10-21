@@ -86,6 +86,20 @@ This is the entry point to the project. Everything starts from here and therefor
 
 ### Gallery Site
 
+The gallery contains a selection of beautiful images of the Alpstein region. The site is fully responsive and adapts to any screen size, the images automatically resize depending on the screensize but always keeping their aspect ratio.
+
+![Gallery Site](docs/testing/02-gallery.png)
+
+- Fullscreen image in new tab
+    - If the user clicks on one of the images, it will open in it's full size in a new tab. This is a logical consequence of having the gallery in the free floating form, as it is. The user should be able to view the image as a standalone image in new tab, not beeing disturbed by other images.
+
+![Gallery Full in new Tab](docs/testing/02-gallery_click.png)
+
+
+### Tours Site
+
+
+
 
 ### Features Left to Implement
 have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
