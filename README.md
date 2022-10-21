@@ -49,10 +49,24 @@ As an initial step, before any code has been written, I have used Balsamiq to cr
 [Desktop Wireframes](docs/wireframes/Desktop.png)
      
 ## Features
-briefly explain the project
     
-### Existing Features
-list out all of your project's features, and make sure to include a screenshot of each!!
+### Generic Features
+
+This section describes some generic features, which can be found on each of the pages. All of these elements are fully responsive to any screen size.
+
+- Navigation Bar and Hero Image
+    - The Navigation Bar is a simple but beautifully crafted element. It consists of three navigation links to the Home, Gallery and Tours site. It has a hover effect on it, chaning the color and the active link is underlined.
+    - The Hero main image is also the "main attraction" of every site, sicne it contains a carefully selected - stunning image of the Alpstein. To give it further expression, a zoom effect has been implemented. In the foreground of the hero image, the main title text appears, surounde by a smoky black box, which is slightly transparent in order keep the user's eye on the image itself.
+    
+    ![Navbar and Hero img](docs/testing/01-navbar_hero.png)
+
+- Footer
+    - The footer is also present on each site and it contains links and the respective icons to the Youtube, Instagram and Pinterest page of the official Appenzell tourist page.
+    - Underneath the footer, there is a small designation with a link to my Githup repository - also including a hover effect.
+
+    ![Footer & Designation](docs/testing/01-footer_desig.png)
+
+
     
 ### Features Left to Implement
 have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
