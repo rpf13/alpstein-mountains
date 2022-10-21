@@ -131,15 +131,50 @@ Please note that in order to directly open the project in Gitpod, you need to ha
 
 ## Credits
 
-explain about any particular places you took inspiration from
+### Code
+
+While creating this project, I did a lot of research *on how to do things* where I took the concepts learned in the LMS of Code Institute and did some further research. The most important resoucre was [w3schools.com](https://www.w3schools.com).
+Nverethless, I have used the following resources in order to understand the related concept:
+
+- Code for the hero image, footer and the google maps section was inspired from Code Institute's Love Running Walkthrough Project and the Coders Coffeehouse project, with some tweaks in order to fit my page
+- [WikiHow's](https://www.wikihow.com/Embed-a-Google-Map-in-HTML) article about how to embed Google Maps helped me to understand how to add it.
+- [Jamie Juviler's](https://blog.hubspot.com/website/css-transform) blogpost has helped me a lot to understand the CSS transform property in order to place the individual site titles in front of the hero image
+- [Kevin Powel](https://www.youtube.com/kepowob) has been a huge inspiration and help in order to understand flexbox, especially the following [video](https://youtu.be/u044iM9xsWU)
+- [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) has helped me a lot to implement flexbox, their cheatsheet was a great resource!
+- [Custom Youtube Embed Generator](https://www.classynemesis.com/projects/ytembed/) has helped me to get the right code for removing unwanted tracking features on the embedded youtube video as well as set the necessary properties.
+
 
 ### Content
 
-list out any URLs or links where you might've borrowed a snippet of code, or element
+- The main content of the site including it's design idea is my own work.
+- The text of the Facts & History sections was taken from the [English](https://en.wikipedia.org/wiki/Alpstein) and [German](https://de.wikipedia.org/wiki/Alpstein) Wikipedia article.
     
 ### Media
 
-list out any URLs for images/videos/audios you've borrowed from online (Markdown Table works best here!)
+All media used in this project is taken from public available resources, respecting the relevant licenses. The following list shows where each element comes from.
+
+#### Main Site
+
+- [Hero image](https://unsplash.com/photos/o7LDdRDIYiY)
+- [YouTube Video](https://youtu.be/dC9U4LVPeNM)
+
+#### Gallery
+
+- [Hero image](https://unsplash.com/photos/gHb7lxBFDuc)
+- [Bollenwees](https://unsplash.com/photos/WlJHg46JtUg)
+- [Saxer Luecke](https://unsplash.com/photos/qkLXiz60IjA)
+- [Rotsteinpass](https://unsplash.com/photos/Zb6kF1l4HyA)
+- [Saentis in Snow](https://unsplash.com/photos/u22BF2Kdn6k)
+- [Churfirsten](https://unsplash.com/photos/JpArU3Oy74A)
+- [Schaefler](https://unsplash.com/photos/tcHDtm4GhvM)
+- [Seealpsee](https://unsplash.com/photos/FNaFLvbLFuk)
+- [Seealpsee Clouds](https://unsplash.com/photos/ZclxlvUZHJc)
+- [Saentis Winter Panorama](https://unsplash.com/photos/GvD4fShTvZU)
+
+#### Tours
+
+- [Hero image](https://unsplash.com/photos/O35LfbkVbRA)
+
     
 ### Acknowledgements
 
@@ -150,4 +185,6 @@ A huge thank you goes to my mentor Tim Nelson, who gave me a lot of inspiration,
 The whole Code Institute Slack community was a big help and motivator. I thank all my fellow students for their advice and support!
 
 A special thank goes also to Kera Cudmore for giving this awesome [tutorial](https://github.com/kera-cudmore/readme-examples) on how to create a good README file.
+
+I would like to thank [w3schools.com](https://www.w3schools.com) for creating such an outstanding resource. Their site was my main resource to look up my questions and understand on how things work - Thank you!
     
