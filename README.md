@@ -241,6 +241,18 @@ All media used in this project is taken from public available resources, respect
 
 - [Hero image](https://unsplash.com/photos/O35LfbkVbRA)
 
+### Links to external sites
+
+The footer contains links to external social media profiles of the official Appenzell Tourism Page. Furthermore, the links behind the hiking tours section, redirect the user to the official Appenzell Tourism Page and the realted tour info of their site.
+The YouTube video on the main page is embedded via YouTube from the *Swiss Sky Fly* channel.
+
+- [Pinterest Appenzell Tourism](https://www.pinterest.ch/alpstein/)
+- [YouTube Appenzell Tourism](https://www.youtube.com/user/apptour)
+- [Instagram Appenzell Tourism](https://www.instagram.com/appenzellerland/)
+- [Appenzell Tourism Hiking Tours](https://www.appenzell.ch/en/alpstein/hiking/hiking-tour-suggestions.html)
+- [Swiss Sky Fly YouTube Channel](https://www.youtube.com/channel/UCy5hLS6YfNF2Qa2DPoVMN5g/videos)
+
+
     
 ### Acknowledgements
 
