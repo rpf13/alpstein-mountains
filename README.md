@@ -26,6 +26,7 @@ This site has been built with the "mobile first" approach in mind. This results 
 - As a visiting user, I would like to see a gallery of pictures to get an impression of the landscape
 - As a visiting user, I would like to get some information about recommended tours
 - As a visiting user, I would like to have a contact form to get more informations
+- As a visiting user, I would like to get a confirmation, that sending the contact form was successful
 - As a visiting user, I would like to see a map of the area, in order to understand, where these mountains are located
 
 ### Color Scheme
@@ -47,6 +48,8 @@ As an initial step, before any code has been written, I have used Balsamiq to cr
 [Mobile Wireframes](docs/wireframes/Mobile.png)
 
 [Desktop Wireframes](docs/wireframes/Desktop.png)
+
+---
      
 ## Features
     
@@ -134,9 +137,7 @@ The text displayed in the title text box give the user confirmation, that his ac
 
 ![Confirmation Site](docs/testing/04-confirmation.png)
 
-
 ---
-
 
 ### Features Left to Implement
 have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
