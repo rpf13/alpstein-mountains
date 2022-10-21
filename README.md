@@ -69,7 +69,7 @@ This section describes some generic features, which can be found on each of the 
 
 ### Main Site
 
-This is the entry point to the project. Everything starts from here and therefore it gives some key information to keep the user interested.
+This is the entry point to the project. Everything starts from here and therefore it gives some key information to keep the user interested. It attracts the visitor with a stunning hero image of the Aescher, a house which is partially built inside the mountain. The other repeating parts have been explained in the [Generic Features](#generic-features) section.
 
 ![Main Site](docs/testing/01-mainsite.png)
 
@@ -86,7 +86,7 @@ This is the entry point to the project. Everything starts from here and therefor
 
 ### Gallery Site
 
-The gallery contains a selection of beautiful images of the Alpstein region. The site is fully responsive and adapts to any screen size, the images automatically resize depending on the screensize but always keeping their aspect ratio.
+The gallery contains a selection of beautiful images of the Alpstein region. It welcomes the user again with a stunning hero image, as described in the [Generic Features](#generic-features) section. The site is fully responsive and adapts to any screen size, the images automatically resize depending on the screensize but always keeping their aspect ratio.
 
 ![Gallery Site](docs/testing/02-gallery.png)
 
@@ -98,7 +98,22 @@ The gallery contains a selection of beautiful images of the Alpstein region. The
 
 ### Tours Site
 
+The tours site is the main entry point to get active or to think about getting active in the Alpseint Mountains. Again, it is fully responsive to any screen size. Despite the beautiful hero image, as already explained in the [Generic Features](#generic-features) section, it offers information about how to discover the area.
 
+![Tours Site](docs/testing/03-tours.png)
+
+- Awesome Tours Section
+    - *Explore the Alpstein* This section welcomes the user with a motivation description on what to expect in this beautiful area. It encourages people in any hiking experience level to come to the Alpstein and enjoy the nature.
+    - *The Choice is Yours!* This section explains the usage of the 6 tour proposals and what is waiting behind it. It also motivates the visitor to use the contact form to get further infos.
+    - The associated hiking suggestion, located in a separate box, contain a brief description of the route and also a *well known* info button (similar to the tourist info symbol), which tunrs green when hovering over it. The green color is on purpose, since the mentioned tourist info symbol is usually green. When clicking on one of these buttons, the user gets redirected to the official tourist page of Appenzell Tourism, with all the infos of the related hiking tour, including the opton of GPX file download and much more.
+
+    ![Awesome Tours Section](docs/testing/03-awesome_tours.png)
+
+    - Clicking on the button opens, as previously mentioned, the official Appenzell Tourist page in a new tab
+
+    ![Appenzell Tourism Hiking Tours](docs/testing/03-appenzell_tourism_ext_content.png)
+
+---
 
 
 ### Features Left to Implement
