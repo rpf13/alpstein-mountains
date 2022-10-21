@@ -101,7 +101,6 @@ I used the following technologies and resources to create this site:
 
 ---
 
-<br>
 
 ## Deployment
 
@@ -113,7 +112,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here [Alpstein Mountains](https://rpf13.github.io/alpstein-mountains/)
 
-<br>
     
 ### Local Deployment
 
@@ -128,17 +126,26 @@ this project directly in Gitpod and and create your own workspace with it. To do
 
 ---
 
-<br>
 
 ## Credits
+
 explain about any particular places you took inspiration from
 
 ### Content
+
 list out any URLs or links where you might've borrowed a snippet of code, or element
     
 ### Media
+
 list out any URLs for images/videos/audios you've borrowed from online (Markdown Table works best here!)
     
 ### Acknowledgements
-list out any acknowledgements you have, if any... tutor support? fellow Slack student help? spouse, loved one, family member, etc.
+
+My biggest thanks go to my wife and my little son, who gave me the opportunity to work on this project and give me the support to do this training with Code Institute.
+
+A huge thank you goes to my mentor Tim Nelson, who gave me a lot of inspiration, hints and advice. Thank you so much Tim, I've loved every minute of our mentor sessions!
+
+The whole Code Institute Slack community was a big help and motivator. I thank all my fellow students for their advice and support!
+
+A special thank goes also to Kera Cudmore for giving this awesome [tutorial](https://github.com/kera-cudmore/readme-examples) on how to create a good README file.
     
