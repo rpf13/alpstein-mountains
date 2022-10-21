@@ -180,8 +180,34 @@ I used the following technologies and resources to create this site:
 
 ## Development
 
->make a note about how I did the commit messages, my multiline approach and the tags I did use
->explain why I’ve used flexbox on single box sections like video and contact form (future proof, …)
+The following arguments describe *why and how* I have choosen to code certain parts the way they are. This section should give an explanation to my thinking process and explain the reader some conceptual decisions.
+
+### Mobile First Approach
+
+After watching the very [inspiring video](https://youtu.be/JcaX60ZscgA) of Rebecca_CI and Franciska_CI, I really wanted to go the mobile first route. Initially I had planned to do desktop first, but the mobile first approach, paired with the awesome features, which flexbox brings (see [flexbox section](#the-use-of-flexbox)), convinced me to do mobile first.
+Actually when developing the site, I had used the inspect tools of the browser and set the screen size of the preview tool to 450px width. The I have scaled it up to verify function and design.
+
+Above mentioned arguments are also the reason, **why no media query has been used**, since I came to the conclusion, that modern CSS tools, paired with a mobile first design in mind, can avoid this step.
+
+### The use of Flexbox
+
+I was reading a lot about flexbox (see [Credits Section](#credits) for detailed links), since it got mentioned everywhere in the slack community. I really liked the approach and the benefits it brings and therefore I have used it throughout this project - also on places where it might not have been really necessary like embedded YouTube movie or the contact form section. However, the following reasons explain why I have used it:
+
+- Flexbox brings amazing features to make a *section* or an *element* responsive to any screen size. With this in minde, a mobile first approach cna be easily implemented.
+- It makes a section kind of future proof and easy to expand and this is also one of the main reasons I have used it on the previously mentioned sections. In future, I can add another Youtube Video or some more content to the contact form seccion and everythign is still responsive and very well placed. The desing of the code is future proof.
+
+### Commit messages
+
+- I have decided to mostly use multiline commit messages. Commit messages are an essential part of the whole project and a single line commit message is just not enough to explain. After reading [this interesting article](https://cbea.ms/git-commit/), it was clear to me, that I have to use it.
+
+- I have decided to use conventional commits, as described this [cheatsheet](https://cbea.ms/git-commit/) or as also described in the LMS of the Code Institute. I did use the following sytax guidline:
+    * **feat:** for feature which may or may not include a CSS part
+	* **fix:** for a bugfix
+	* **style:** for changes to CSS or to give style to the code itself
+	* **docs:** for changes related to documentation
+	* **refactor:** for refactored code, re-written code
+	* **maint:** for general maintenance
+
 
 ---
 
@@ -231,6 +257,7 @@ Nverethless, I have used the following resources in order to understand the rela
 - [Kevin Powel](https://www.youtube.com/kepowob) has been a huge inspiration and help in order to understand flexbox, especially the following [video](https://youtu.be/u044iM9xsWU)
 - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) has helped me a lot to implement flexbox, their cheatsheet was a great resource!
 - [Custom Youtube Embed Generator](https://www.classynemesis.com/projects/ytembed/) has helped me to get the right code for removing unwanted tracking features on the embedded youtube video as well as set the necessary properties.
+- [How to write a Git Commit Message](https://cbea.ms/git-commit/) has helped to understand the importance of multiline commit messages, which I have have heavily used in the project.
 
 
 ### Content
