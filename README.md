@@ -62,12 +62,31 @@ This section describes some generic features, which can be found on each of the 
 
 - Footer
     - The footer is also present on each site and it contains links and the respective icons to the Youtube, Instagram and Pinterest page of the official Appenzell tourist page.
-    - Underneath the footer, there is a small designation with a link to my Githup repository - also including a hover effect.
+    - Underneath the footer, there is a small designation with a link to my Github repository - also including a hover effect.
 
     ![Footer & Designation](docs/testing/01-footer_desig.png)
 
 
-    
+### Main Site
+
+This is the entry point to the project. Everything starts from here and therefore it gives some key information to keep the user interested.
+
+![Main Site](docs/testing/01-mainsite.png)
+
+- Facts & History Boxes
+    - These two, fully responsive boxes will give some crucial information about the Alpstein Mountains, their location, the geology and some climate facts. The user should immediately get some information about the area, after looking at the stunning hero image.
+
+![Facts & History](docs/testing/01-facts_history.png)
+
+- Embedded Youtube Video
+    - As the final visual experience, a well choosen 4k drone video has been embedded. This Youtube video gives some more emotions about the area, supported by the well chosen background music.
+
+![YouTube Video](docs/testing/01-youtube.png)
+
+
+### Gallery Site
+
+
 ### Features Left to Implement
 have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
 
