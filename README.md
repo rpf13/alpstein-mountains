@@ -86,6 +86,10 @@ I used the following technologies and resources to create this site:
     - The Custom Youtube Embed Generator has been used to set and remove YT features
 - [Bitly](https://bitly.com)
     - Bitly has been used to shorten the URL's for the tours hiking link section
+- [Webaim](https://webaim.org/resources/contrastchecker/)
+    - WebAim has been used to check the contrast
+- [Wave](https://wave.webaim.org)
+    - Wave has been used to test the accessibility
 
 ---
 
