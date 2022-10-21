@@ -124,6 +124,8 @@ git clone git@github.com:rpf13/alpstein-mountains.git
 If you are using your IDE inside Gitpod or generally prefer to work with Gitpod instead of a local IDE, you can open
 this project directly in Gitpod and and create your own workspace with it. To do so, klick on the following link: [Open in Gitpod](https://gitpod.io/#https://github.com/rpf13/alpstein-mountains)
 
+Please note that in order to directly open the project in Gitpod, you need to have the browser extensions (Chrome, Firefox) installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
 ---
 
 
