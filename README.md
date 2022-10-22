@@ -137,13 +137,23 @@ The text displayed in the title text box give the user confirmation, that his ac
 
 ![Confirmation Site](docs/testing/04-confirmation.png)
 
----
 
 ### Features Left to Implement
-have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
+
+- The main site, the Facts & History section should get a third box, which gives some interesting information about the history of the touristic enablement of area and the pro's and con's, which this brought to the area.
+- A possible statistic about the Alpstein (visitors, hiking accidents, ...) can be added
+- The main site should then also get one or two more YouTube videos showing the touristic activities from recent years.
+
+- The Gallery site should get more and more pictures
+
+- The Tours site should get a few more tour examples. 
+- The Tours site could get an active weather forecast widget included. This will be a benefit for the user.
+- The Tours site should get another section showing the varius lift's, cable car's and gondolas in the area, which would help the user to decide where to go, depending on his abilities.
 
 ### Accessibility
-    
+
+---
+
 ## Technologies Used
 I used the following technologies and resources to create this site:
 
