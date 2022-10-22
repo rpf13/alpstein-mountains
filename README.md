@@ -152,6 +152,15 @@ The text displayed in the title text box give the user confirmation, that his ac
 
 ### Accessibility
 
+I made quite some efforts to include the accessibility aspects into this page. I did even skip some nice effects, in order to be compliant to accessibility checks. On the tours site, I had a nice background image on one box, but during testing accessibility / contrast, I figured out it would (partially) fail the test, depending on which position, the background sits. I could not find any settign to overcome this and pass the check, so I've deleted it, in favor of the accessibility.
+
+![failed contrast check](docs/testing/03-access_fail.png)
+
+- All links to external sources contain an aria-label with a descriptive text. My [research](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label) has shown that on the iframe used for the YouTube video, the aria-label is not necessary, since it already contains a title.
+
+- All images contain an alt attribute with a descriptive text.
+- Like mentioned, I've tried to pay great attention to good contrast, which was quite a challenge when integrating images with foreground text, in a resonsive approach, where the front-, and background are not always on the same position.
+
 ---
 
 ## Technologies Used
