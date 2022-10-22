@@ -212,7 +212,8 @@ I was reading a lot about flexbox (see [Credits Section](#credits) for detailed 
 ---
 
 ## Testing
-"For all testing, please refer to the [TESTING.md](TESTING.md) file."
+
+Testing is covered in a separate page, view [testing.md](TESTING.md)
 
 ---
 
