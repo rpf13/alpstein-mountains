@@ -8,6 +8,43 @@ I have tested the site on various devices and different browsers. Furthermore fr
 
 ### User Stories Testing
 
+- As a visiting user, I would like to be immediately attracted by a stunning big picture of the Alpstein Mountains
+
+    ![Alpstein Mountains Main Site - Hero Image](docs/testing/01-navbar_hero.png)
+
+- As a visiting user, I would like to gain informations about the Alpstein Mountains
+
+    ![Facts & History](docs/testing/01-facts_history.png)
+
+- As a visiting user, I would like to see a video, showing the beautiful area
+
+    ![YouTube Drone Video](docs/testing/01-youtube.png)
+
+- As a visiting user, I would like to enjoy a minimalistic web design, where the beautifulness of the mountains, shown via the pictures, speaks for itself
+    - The Am I Responsive snapshot gives a good view on the sleek and minimalistic design, keeping the beautiful images as the main attraction.
+
+    ![Sleek Design - Am I responsive snapshot](docs/testing/amiresponsive.png)
+
+- As a visiting user, I would like to see a gallery of pictures to get an impression of the landscape
+
+    ![Gallery Site](docs/testing/02-gallery.png)
+
+- As a visiting user, I would like to get some information about recommended tours
+    - Some generic info about the tours is given in the "Explore the Alpstein" section, but even more info can be gathered from the tour options and their links behind.
+
+    ![Tours Section](docs/testing/03-awesome_tours.png)
+
+- As a visiting user, I would like to have a contact form to get more informations
+
+    ![Contact Form](docs/testing/03-contactform.png)
+
+- As a visiting user, I would like to get a confirmation, that sending the contact form was successful
+
+    ![Confirmation Site](docs/testing/04-confirmation.png)
+
+- As a visiting user, I would like to see a map of the area, in order to understand, where these mountains are located
+
+    ![Google Maps w. Alpstein Area](docs/testing/03-gmaps.png)
 
 
 ### Known Bugs
