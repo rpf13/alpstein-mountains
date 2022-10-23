@@ -2,6 +2,20 @@
 
 This part covers all the testing sections in order to proof proper functionality.
 
+## Contents
+
+* [User Testing](#user-testing)
+    * [User Stories Testing](#user-stories-testing)
+    * [Browser Testing](#browser-testing)
+    * [Responsiveness Testing](#responsiveness-testing)
+* [Known Bugs](#known-bugs)
+* [Validator Testing](#validator-testing)
+    * [HTML Validator](#html-validator)
+    * [CSS Validator](#css-validator)
+    * [Lighthouse Testing](#lighthouse-testing)
+
+---
+
 ### User Testing
 
 I have tested the site on various devices and different browsers. Furthermore friends and family did check it out and no one reported an issue.
@@ -46,8 +60,13 @@ I have tested the site on various devices and different browsers. Furthermore fr
 
     ![Google Maps w. Alpstein Area](docs/testing/03-gmaps.png)
 
+### Browser Testing
 
-### Known Bugs
+### Responsiveness Testing
+
+---
+
+## Known Bugs
 
 While doing the CSS part and styling, I did use a regular expression in order to summary the hero image part, which is shared among all of the hero images. It worked fine, however, there seems to be a gut that the baground-size attribute get's ignored. I could not make it to run, once I had this property in the regex, I had to specify under each id selector.
 
@@ -68,13 +87,14 @@ While doing the CSS part and styling, I did use a regular expression in order to
 }
 ```
 
+---
 
-### Validator Testing
+## Validator Testing
 
-#### W3C Validator
+### HTML Validator
 
+### CSS Validator
 
-#### W3C Jigsaw Validator
+### Lighthouse Testing
 
-
-#### Lighthouse Testing
+---
