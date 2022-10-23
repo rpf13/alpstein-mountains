@@ -9,7 +9,34 @@ Link to deployed site: [Alpstein Mountains](https://rpf13.github.io/alpstein-mou
 
 ## Contents
 
->TODO: Add links to each sections of the README
+* [UX & Design](#ux--design)
+    * [User Stories](#user-stories)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Wireframes](#wireframes)
+* [Features](#features)
+    * [Generic Features](#generic-features)
+    * [Main Site](#main-site)
+    * [Gallery Site](#gallery-site)
+    * [Tours Site](#tours-site)
+    * [Confirmation Site](#confirmation-site)
+    * [Features Left to Implement](#features-left-to-implement)
+    * [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+* [Development](#development)
+    * [Mobile First Approach](#mobile-first-approach)
+    * [The use of Flexbox](#the-use-of-flexbox)
+    * [Commit Messages](#commit-messages)
+* [Testing](TESTING.md)
+* [Deployment](#deployment)
+    * [Local Deployment](#local-deployment)
+* [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+    * [Links to external sites](#links-to-external-sites)
+    * [Acknowledgements](#acknowledgements)
+
 
 ---
 
@@ -79,12 +106,12 @@ This is the entry point to the project. Everything starts from here and therefor
 - Facts & History Boxes
     - These two, fully responsive boxes will give some crucial information about the Alpstein Mountains, their location, the geology and some climate facts. The user should immediately get some information about the area, after looking at the stunning hero image.
 
-![Facts & History](docs/testing/01-facts_history.png)
+    ![Facts & History](docs/testing/01-facts_history.png)
 
 - Embedded Youtube Video
     - As the final visual experience, a well choosen 4k drone video has been embedded. This Youtube video gives some more emotions about the area, supported by the well chosen background music.
 
-![YouTube Video](docs/testing/01-youtube.png)
+    ![YouTube Video](docs/testing/01-youtube.png)
 
 
 ### Gallery Site
@@ -96,7 +123,7 @@ The gallery contains a selection of beautiful images of the Alpstein region. It 
 - Fullscreen image in new tab
     - If the user clicks on one of the images, it will open in it's full size in a new tab. This is a logical consequence of having the gallery in the free floating form, as it is. The user should be able to view the image as a standalone image in new tab, not beeing disturbed by other images.
 
-![Gallery Full in new Tab](docs/testing/02-gallery_click.png)
+    ![Gallery Full in new Tab](docs/testing/02-gallery_click.png)
 
 
 ### Tours Site
