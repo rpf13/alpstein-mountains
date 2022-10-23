@@ -69,6 +69,10 @@ h3 {
     position: relative;
 }
 
+/* Regex to match everything which stats with hero-image-
+Unfortunately there seems to be a bug with background-size property
+I had to specify it under each id selector in order to work */
+
 [id^=hero-image-]{
     height: 100%;
     background-size: cover;
