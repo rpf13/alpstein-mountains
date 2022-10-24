@@ -231,7 +231,9 @@ The following arguments describe *why and how* I have choosen to code certain pa
 After watching the very [inspiring video](https://youtu.be/JcaX60ZscgA) of Rebecca_CI and Franciska_CI, I really wanted to go the mobile first route. Initially I had planned to do desktop first, but the mobile first approach, paired with the awesome features, which flexbox brings (see [flexbox section](#the-use-of-flexbox)), convinced me to do mobile first.
 Actually when developing the site, I had used the inspect tools of the browser and set the screen size of the preview tool to 450px width. The I have scaled it up to verify function and design.
 
-Above mentioned arguments are also the reason, **why no media query has been used**, since I came to the conclusion, that modern CSS tools, paired with a mobile first design in mind, can avoid this step.
+Above mentioned arguments are also the reason, **why no media query has been used**, (at least for most of the code) since I came to the conclusion, that modern CSS tools, paired with a mobile first design in mind, can avoid this step.
+
+However, since the assessment guide of this project mentions media queries, I have decided to add some queries in order to showcase, that I'm able to do it. Therefore I have added queries for very large screens above 1310px, to increase the height of the hero image and also the title text, which is an overlay to the hero image.
 
 ### The use of Flexbox
 
