@@ -134,4 +134,9 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
 ### Lighthouse Testing
 
+I did verify the site in Lighthouse via Chrome browser:
+
+![Lighthouse](docs/testing/lighthouse_main.png)
+
+
 ---
