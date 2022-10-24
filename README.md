@@ -213,8 +213,6 @@ I used the following technologies and resources to create this site:
     - Gitpod has been used as the local IDE environment
 - [Am I responsive?](https://ui.dev/amiresponsive)
     - Am I responsive has been used to show an image of the site on various devices
-- [Custom Youtube Embed Generator](https://www.classynemesis.com/projects/ytembed/)
-    - The Custom Youtube Embed Generator has been used to set and remove YT features
 - [Bitly](https://bitly.com)
     - Bitly has been used to shorten the URL's for the tours hiking link section
 - [Webaim](https://webaim.org/resources/contrastchecker/)
