@@ -62,7 +62,44 @@ I have tested the site on various devices and different browsers. Furthermore fr
 
 ### Browser Testing
 
+The project has been developed on a Mac with Firefox as main browser. Safari has been used for cross checking, while developing. I have tested the site on all possible browsers, also under Windows.
+
+- Firefox
+
+![Firefox Browser](docs/testing/Firefox.png)
+
+- Safari
+
+![Safari Browser](docs/testing/Safari.png)
+
+- Chrome
+
+![Chrome Browser](docs/testing/Chrome.png)
+
+- Edge
+
+![Edge Browser](docs/testing/Edge.png)
+
 ### Responsiveness Testing
+
+Thoroughout the projec,t I did always verify responsiveness via the developer tools in the browser. However, as mentioned in the development section of the [README](README.md) file, the project was developed with a minimal screen size in a mobiel first approach. This has helped me to always be responsive, also when increasing the screen sizes.
+However, here some snapshots taken on an iPhone 12 Pro:
+
+- iPhone
+
+![iPhone1](docs/testing/iPhone1.png)
+
+![iPhone2](docs/testing/iPhone2.png)
+
+![iPhone3](docs/testing/iPhone3.png)
+
+![iPhone4](docs/testing/iPhone5.png)
+
+![iPhone5](docs/testing/iPhone6.png)
+
+- iPad
+
+![iPad](docs/testing/iPad.png)
 
 ---
 
