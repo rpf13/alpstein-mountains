@@ -130,9 +130,16 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
 ### Fixed Bugs
 
-After running the w3c html validator over the main site, I got 2 errors in the YouTube Video section. I did clean them up, removed the unnecessary frameborder attribute and swaped the section to a div element, since I did not plan to have any headings in that part.
+- **Main Site:** After running the w3c html validator over the main site, I got 2 errors in the YouTube Video section. I did clean them up, removed the unnecessary frameborder attribute and swaped the section to a div element, since I did not plan to have any headings in that part.
 
-![w3c validation main](docs/testing/w3c_validation_errors_main.png)
+    ![w3c validation main](docs/testing/w3c_validation_errors_main.png)
+
+- **Gallery Site** After running the w3c html validator over the gallery site, I got 1 error, since I've used a section element instead of a div element for the gallery. Since there are no headings planned, I did exchange the element type to div.
+
+    ![w3c validation gallery](docs/testing/w3c_validation_errors_gallery.png)
+
+
+
 
 ---
 
@@ -148,7 +155,9 @@ Test run via the official w3c html validator.
 
     ![w3c validation main](docs/testing/w3c_validation_main.png)
 
--
+- [Gallery](https://validator.w3.org/nu/?doc=https%3A%2F%2Frpf13.github.io%2Falpstein-mountains%2Fgallery.html) site did not show any issues, after fixing the [mentioned](#fixed-bugs) issue.
+
+    ![w3c validation gallery](docs/testing/w3c_validation_gallery.png)
 
 
 
