@@ -405,3 +405,24 @@ footer p {
 .footer-link a:hover {
     color: #656d61;
 }
+
+/* Media Queries for very large screens above 1310px */
+@media screen and (min-width: 1311px) {
+
+    .hero-outer {
+        height: 800px;
+    }
+
+    .hero-image-text {
+        font-size: 2rem;
+    }
+
+    #hero-outer-conf {
+        height: 1000px;
+    }
+
+    #hero-img-conf-text {
+        font-size: 1.75rem;
+    }
+
+}
