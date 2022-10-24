@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
 
+/* global values to get rid of automatic values */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,6 @@ body {
 }
 
 /* Header and Headings */
-
 header {
     background-color: #F7F7F2;
 }
@@ -27,7 +27,6 @@ h3 {
 }
 
 /* Navbar w. Flexbox for responsive design */
-
 .nav-list {
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +60,7 @@ h3 {
 }
 
 /* Hero Image with Title and Zoom Effect */
+/* Base Hero concept inspired by Love Running Project */
 
 .hero-outer {
     height: 600px;
@@ -102,6 +102,7 @@ I had to specify it under each id selector in order to work */
     opacity: 80%;
 }
 
+/* Creating zoom effect for hero image */
 @keyframes hero-image-zoom {
     from {
         transform: scale(1);
@@ -111,6 +112,7 @@ I had to specify it under each id selector in order to work */
     }
 }
 
+/* Overlay title text in front of hero image, centered via transform translate property */
 .hero-image-text {
     font-size: 1.75rem;
     padding: 1rem;
@@ -171,12 +173,14 @@ I had to specify it under each id selector in order to work */
     color: inherit;
 }
 
+/* Flexbox for the two boxes to have them responsive and more can easily be added */
 .facts-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
+/* Child box item with a flex-basis "ideal" width is set to 45characters */
 .facts-box {
     margin: 15px 15px 25px 15px;
     text-align: justify;
@@ -188,7 +192,7 @@ I had to specify it under each id selector in order to work */
     flex: 1 1 45ch;
 }
 
-/* Video Section w. Flexbox to be responsive */
+/* Video Section w. Flexbox to be responsive and future proof to add more video boxes*/
 
 .video-container {
     display: flex;
@@ -197,6 +201,7 @@ I had to specify it under each id selector in order to work */
     background-color: #F7F7F2;
 }
 
+/* Child box */
 .video-box {
     margin: 15px 15px 25px 15px;
     border-radius: 10px;
@@ -205,7 +210,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Gallery Section with Flexbox for responsive design */
-
 .gallery-container {
     background-color:#F7F7F2;
 }
@@ -215,6 +219,7 @@ I had to specify it under each id selector in order to work */
     flex-wrap: wrap;
 }
 
+/* flex-basis "ideal" width is set to 350px to have gallery nice on various screen sizes */
 .gallery-box > li {
     flex: 1 1 350px;
     min-height: 500px;
@@ -229,7 +234,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Tours Section */
-
 #tours-section {
     background-color: #F7F7F2;
     padding-bottom: 25px;
@@ -241,14 +245,14 @@ I had to specify it under each id selector in order to work */
     color: inherit;
 }
 
-/* Tours Box Section with flexbox construct */
-
+/* Tours Box Section with flexbox construct to have responsive design with flex wrap for allignement*/
 .tours-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
+/* Child box element with flex basis set to 45 characters */
 .tours-box {
     margin: 15px 15px 25px 15px;
     text-align: justify;
@@ -260,8 +264,7 @@ I had to specify it under each id selector in order to work */
     flex: 1 1 45ch;
 }
 
-/* Flexbox "child" living inside the tours flexbox construct */
-
+/* Flexbox "child construct" living inside the tours flexbox construct */
 .hike-container {
     display: flex;
     flex-wrap: wrap;
@@ -270,6 +273,7 @@ I had to specify it under each id selector in order to work */
     align-items: center;
 }
 
+/* Child box element, which will cause the individual boxes to be fully responsive */
 .hike-container > div {
     text-align: center;
     flex: 1 1 20ch;
@@ -280,6 +284,7 @@ I had to specify it under each id selector in order to work */
     color: #222725;
 }
 
+/* Create hover effect for icons, set to green like tourist info */
 .hike-container i:hover {
     color:rgb(0, 145, 0);
 }
@@ -291,7 +296,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Contact Box Section */
-
 #contact-section {
     background-color: #F7F7F2;
     padding-bottom: 25px;
@@ -303,6 +307,7 @@ I had to specify it under each id selector in order to work */
     color: inherit;
 }
 
+/* Flexbox to have fully responsive design of the contact box */
 .contact-container {
     display: flex;
     justify-content: center;
@@ -310,6 +315,7 @@ I had to specify it under each id selector in order to work */
     background-color: #e4e6c3;
 }
 
+/* Child box element, transparent effect */
 .contact-box {
     margin: 25px 15px 25px 15px;
     background-color: rgba(34, 39, 37, 0.6);
@@ -332,10 +338,12 @@ I had to specify it under each id selector in order to work */
     padding: 3px;
 }
 
+/* Hover effect to turn frame around text boxes smoky black */
 .text-input:hover {
     border-color: #222725;
 }
 
+/* Submit button to send form */
 .submit-button {
     margin-top: 20px;
     border-radius: 3px;
@@ -347,20 +355,19 @@ I had to specify it under each id selector in order to work */
     display: inline-block;
 }
 
+/* Hover effect on submit botten for inverse color swap */
 .submit-button:hover {
     background-color: #f7f7f2;
     color: #222725;
 }
 
 /* Maps Section */
-
 .gmaps {
     width: 100%;
     height: 300px;
 }
 
 /* Footer */
-
 footer {
     height: 90px;
 }
@@ -369,16 +376,6 @@ footer p {
     text-align: center;
     padding: 10px 0 10px 0;
     font-size: .9rem;
-}
-
-.footer-link a {
-    text-decoration: none;
-    color: #222725;
-    border-bottom: 1px solid;
-}
-
-.footer-link a:hover {
-    color: #656d61;
 }
 
 .social-networks {
@@ -395,4 +392,16 @@ footer p {
     margin: 1rem;
     padding: 1rem;
     color: #F7F7F2;
+}
+
+/* Footer designation section - active link to github repo */
+.footer-link a {
+    text-decoration: none;
+    color: #222725;
+    border-bottom: 1px solid;
+}
+
+/* Hover effect to github repo link to show active link */
+.footer-link a:hover {
+    color: #656d61;
 }
