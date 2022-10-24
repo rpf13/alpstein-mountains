@@ -15,6 +15,7 @@ This part covers all the testing sections in order to proof proper functionality
     * [HTML Validator](#html-validator)
     * [CSS Validator](#css-validator)
     * [Lighthouse Testing](#lighthouse-testing)
+    * [Wave Webaim Validator](#wave-webaim-validator)
 
 ---
 
@@ -146,6 +147,9 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
     ![w3c validation confirmation](docs/testing/w3c_validation_errors_confirmation.png)
 
+- **All Sites - Footer** After running the [Wave Webaim Validator](https://wave.webaim.org/) I got a contrast error on my footer section, on the designation. After checking CSS I found out, that I had by mistake applied the smokey black background color (#222725) to the whole section, not only the part with the social media buttons. I did correct that in CSS.
+
+    ![wave webaim footer](docs/testing/wave_error_footer.png)
 
 ---
 
@@ -185,6 +189,12 @@ I did run the w3c css [jigsaw](https://jigsaw.w3.org/css-validator/) validator a
 I did verify the site in Lighthouse via Chrome browser:
 
 ![Lighthouse](docs/testing/lighthouse_main.png)
+
+### Wave Webaim Validator
+
+I did run the [Wave Webaim Validator](https://wave.webaim.org/) validator and after fixing the [mentioned](#fixed-bugs) issue, no errors were found.
+
+![wave webaim main](docs/testing/wave_fix_footer.png)
 
 
 ---
