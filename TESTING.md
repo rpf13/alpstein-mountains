@@ -8,7 +8,9 @@ This part covers all the testing sections in order to proof proper functionality
     * [User Stories Testing](#user-stories-testing)
     * [Browser Testing](#browser-testing)
     * [Responsiveness Testing](#responsiveness-testing)
-* [Known Bugs](#known-bugs)
+* [Bugs](#bugs)
+    * [Known Bugs](#known-bugs)
+    * [Fixed Bugs](#fixed-bugs)
 * [Validator Testing](#validator-testing)
     * [HTML Validator](#html-validator)
     * [CSS Validator](#css-validator)
@@ -103,7 +105,9 @@ However, here some snapshots taken on an iPhone 12 Pro:
 
 ---
 
-## Known Bugs
+## Bugs
+
+### Known Bugs
 
 While doing the CSS part and styling, I did use a regular expression in order to summary the hero image part, which is shared among all of the hero images. It worked fine, however, there seems to be a gut that the baground-size attribute get's ignored. I could not make it to run, once I had this property in the regex, I had to specify under each id selector.
 
@@ -124,11 +128,29 @@ While doing the CSS part and styling, I did use a regular expression in order to
 }
 ```
 
+### Fixed Bugs
+
+After running the w3c html validator over the main site, I got 2 errors in the YouTube Video section. I did clean them up, removed the unnecessary frameborder attribute and swaped the section to a div element, since I did not plan to have any headings in that part.
+
+![w3c validation main](docs/testing/w3c_validation_errors_main.png)
+
 ---
 
 ## Validator Testing
 
+This section covers the various testins, which were done via the official testing tools.
+
 ### HTML Validator
+
+Test run via the official w3c html validator.
+
+- [Main index](https://validator.w3.org/nu/?doc=https%3A%2F%2Frpf13.github.io%2Falpstein-mountains%2F) site did not show any issues, after fixing the [mentioned](#fixed-bugs) two points.
+
+    ![w3c validation main](docs/testing/w3c_validation_main.png)
+
+-
+
+
 
 ### CSS Validator
 
