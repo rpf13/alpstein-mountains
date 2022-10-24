@@ -176,6 +176,10 @@ Test run via the official w3c html validator.
 
 ### CSS Validator
 
+I did run the w3c css [jigsaw](https://jigsaw.w3.org/css-validator/) validator and no issues could be found.
+
+![w3c css jigsaw validator](docs/testing/w3c_jigsaw_validation.png)
+
 ### Lighthouse Testing
 
 I did verify the site in Lighthouse via Chrome browser:
