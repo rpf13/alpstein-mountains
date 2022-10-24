@@ -135,19 +135,19 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
     ![w3c validation main](docs/testing/w3c_validation_errors_main.png)
 
-- **Gallery Site** After running the w3c html validator over the gallery site, I got 1 error, since I've used a section element instead of a div element for the gallery. Since there are no headings planned, I did exchange the element type to div.
+- **Gallery Site:** After running the w3c html validator over the gallery site, I got 1 error, since I've used a section element instead of a div element for the gallery. Since there are no headings planned, I did exchange the element type to div.
 
     ![w3c validation gallery](docs/testing/w3c_validation_errors_gallery.png)
 
-- **Tours Site** After running the w3c html validator over the tours site, I got 1 error, since I've used a section element instead of a div element for the maps part. Since there are no headings necessary, I did exchange the element type to div.
+- **Tours Site:** After running the w3c html validator over the tours site, I got 1 error, since I've used a section element instead of a div element for the maps part. Since there are no headings necessary, I did exchange the element type to div.
 
     ![w3c validation tours](docs/testing/w3c_validation_errors_tours.png)
 
-- **Confirmation Site** After running the w3c html validator over the tours site, I got 1 error, I forgot the "url=" keyword in the meta tag for redirect back to the tours site.
+- **Confirmation Site:** After running the w3c html validator over the tours site, I got 1 error, I forgot the "url=" keyword in the meta tag for redirect back to the tours site.
 
     ![w3c validation confirmation](docs/testing/w3c_validation_errors_confirmation.png)
 
-- **All Sites - Footer** After running the [Wave Webaim Validator](https://wave.webaim.org/) I got a contrast error on my footer section, on the designation. After checking CSS I found out, that I had by mistake applied the smokey black background color (#222725) to the whole section, not only the part with the social media buttons. I did correct that in CSS.
+- **All Sites - Footer:** After running the [Wave Webaim Validator](https://wave.webaim.org/) I got a contrast error on my footer section, on the designation. After checking CSS I found out, that I had by mistake applied the smokey black background color (#222725) to the whole section, not only the part with the social media buttons. I did correct that in CSS.
 
     ![wave webaim footer](docs/testing/wave_error_footer.png)
 
@@ -192,9 +192,22 @@ I did verify the site in Lighthouse via Chrome browser:
 
 ### Wave Webaim Validator
 
-I did run the [Wave Webaim Validator](https://wave.webaim.org/) validator and after fixing the [mentioned](#fixed-bugs) issue, no errors were found.
+I did run the [Wave Webaim Validator](https://wave.webaim.org/) validator on all sites.
 
-![wave webaim main](docs/testing/wave_fix_footer.png)
+- **Main Site:** After fixing the [mentioned](#fixed-bugs) issue, no more errors were found.
 
+    ![wave webaim main](docs/testing/wave_fix_footer.png)
+
+- **Gallery Site:** No errors have been found.
+
+    ![wave webaim gallery](docs/testing/wave_gallery.png)
+
+- **Tours Site:** No errors have been found.
+
+    ![wave webaim tours](docs/testing/wave_tours.png)
+
+- **Confirmation Site:** No *real* errors have been found. However, since there is an automatic refresh of the site with a redirect back to the tours page, it shows an error. I took care about this warning with the fact, that I do explicitly tell the user, that a redirect will happen. This is done via the *oversized* text shown in front of the hero image.
+
+    ![wave webaim confirmation1](docs/testing/wave_confirmation1.png) ![wave webaim confirmation2](docs/testing/wave_confirmation2.png)
 
 ---
