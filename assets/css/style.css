@@ -200,6 +200,8 @@ I had to specify it under each id selector in order to work */
 .video-box {
     margin: 15px 15px 25px 15px;
     border-radius: 10px;
+    width: 560px;
+    height: 315px;
 }
 
 /* Gallery Section with Flexbox for responsive design */
