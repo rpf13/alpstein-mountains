@@ -142,7 +142,9 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
     ![w3c validation tours](docs/testing/w3c_validation_errors_tours.png)
 
+- **Confirmation Site** After running the w3c html validator over the tours site, I got 1 error, I forgot the "url=" keyword in the meta tag for redirect back to the tours site.
 
+    ![w3c validation confirmation](docs/testing/w3c_validation_errors_confirmation.png)
 
 
 ---
@@ -167,6 +169,9 @@ Test run via the official w3c html validator.
 
     ![w3c validation tours](docs/testing/w3c_validation_tours.png)
 
+- [Confirmation](https://validator.w3.org/nu/?doc=https%3A%2F%2Frpf13.github.io%2Falpstein-mountains%2Fconfirmation.html) site did not show any issues, after fixing the [mentioned](#fixed-bugs) issue.
+
+    ![w3c validation confirmation](docs/testing/w3c_validation_confirmation.png)
 
 
 ### CSS Validator
