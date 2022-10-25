@@ -298,6 +298,13 @@ Nverethless, I have used the following resources in order to understand the rela
 
 All media used in this project is taken from public available resources, respecting the relevant licenses. The following list shows where each element comes from.
 
+#### All Sites
+
+- [Favicon](https://favicon.io/emoji-favicons/mountain/)
+- [Pinterest Fontawesome Icon](https://fontawesome.com/icons/square-pinterest?f=brands)
+- [YouTube Fontawesome Icon](https://fontawesome.com/icons/square-youtube?f=brands)
+- [Insta Fontawesome Icon](https://fontawesome.com/icons/square-instagram?f=brands)
+
 #### Main Site
 
 - [Hero image](https://unsplash.com/photos/o7LDdRDIYiY)
