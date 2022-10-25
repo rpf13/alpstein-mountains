@@ -143,6 +143,10 @@ While doing the CSS part and styling, I did use a regular expression in order to
 
     ![w3c validation tours](docs/testing/w3c_validation_errors_tours.png)
 
+- **Tours Site Contact Form:** During testing on Windows computer, I have figured out that the dropdown menu for the contact form was *empty* apart from the first "Make your Choice" entry. On Mac OS X, on which the site was develped, it was not the case. Further checks and research have shown, that OS X uses per default a grey background for the dropdown menu, where as on Windows it is white. Therefore I had to add a change into CSS for the text input option to turn black, beginning with the second element.
+
+    ![dropdown menu windows issue](docs/testing/windows_dropdown_issue.png)
+
 - **Confirmation Site:** After running the w3c html validator over the tours site, I got 1 error, I forgot the "url=" keyword in the meta tag for redirect back to the tours site.
 
     ![w3c validation confirmation](docs/testing/w3c_validation_errors_confirmation.png)

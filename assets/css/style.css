@@ -335,7 +335,14 @@ I had to specify it under each id selector in order to work */
     margin: 6px 0 20px 0;
     border: 1px solid #fff;
     border-radius: 3px;
-    padding: 3px;
+    padding: 3px;    
+}
+
+/* Fix for dropdown menu color, since background is white on Windows
+where as on OS X it is grey. Changing color to black starting with
+second element in list */
+.text-input option:not(:first-child) {
+    color: black;
 }
 
 /* Hover effect to turn frame around text boxes smoky black */
