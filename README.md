@@ -6,38 +6,6 @@ Link to deployed site: [Alpstein Mountains](https://rpf13.github.io/alpstein-mou
 
 ![Am I Responsive?](docs/testing/amiresponsive.png)
 
-
-## Contents
-
-* [UX & Design](#ux--design)
-    * [User Stories](#user-stories)
-    * [Color Scheme](#color-scheme)
-    * [Typography](#typography)
-    * [Wireframes](#wireframes)
-* [Features](#features)
-    * [Generic Features](#generic-features)
-    * [Main Site](#main-site)
-    * [Gallery Site](#gallery-site)
-    * [Tours Site](#tours-site)
-    * [Confirmation Site](#confirmation-site)
-    * [Features Left to Implement](#features-left-to-implement)
-    * [Accessibility](#accessibility)
-* [Technologies Used](#technologies-used)
-* [Development](#development)
-    * [Mobile First Approach](#mobile-first-approach)
-    * [The use of Flexbox](#the-use-of-flexbox)
-    * [Commit Messages](#commit-messages)
-* [Testing](TESTING.md)
-* [Deployment](#deployment)
-    * [Local Deployment](#local-deployment)
-* [Credits](#credits)
-    * [Code](#code)
-    * [Content](#content)
-    * [Media](#media)
-    * [Links to external sites](#links-to-external-sites)
-    * [Acknowledgements](#acknowledgements)
-
-
 ---
 
 ## UX & Design
@@ -68,13 +36,25 @@ I used [Google Fonts](https://fonts.google.com/) to choose and import clear and 
 ![EB Garamond](docs/testing/Font_EB_Garamond.png)
 
 ![Playfair Display](docs/testing/Font_Playfair_Display.png)
-    
+
+
 ### Wireframes
 As an initial step, before any code has been written, I have used Balsamiq to create a Mobile and a Desktop version of each site.
+Click to enlarge Wireframe drawings.
 
-[Mobile Wireframes](docs/wireframes/Mobile.png)
+<details>
+<summary>Mobile Wireframe</summary>
 
-[Desktop Wireframes](docs/wireframes/Desktop.png)
+![Mobile Wireframes](docs/wireframes/Mobile.png)
+
+</details>
+
+<details>
+<summary>Desktop Wireframe</summary>
+
+![Desktop Wireframes](docs/wireframes/Desktop.png)
+
+</details>
 
 ---
      
@@ -284,7 +264,9 @@ git clone git@github.com:rpf13/alpstein-mountains.git
 ```
 
 If you are using your IDE inside Gitpod or generally prefer to work with Gitpod instead of a local IDE, you can open
-this project directly in Gitpod and and create your own workspace with it. To do so, klick on the following link: [Open in Gitpod](https://gitpod.io/#https://github.com/rpf13/alpstein-mountains)
+this project directly in Gitpod and and create your own workspace with it. To do so, klick on the following link:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rpf13/alpstein-mountains)
 
 Please note that in order to directly open the project in Gitpod, you need to have the browser extensions (Chrome, Firefox) installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 

@@ -2,21 +2,6 @@
 
 This part covers all the testing sections in order to proof proper functionality.
 
-## Contents
-
-* [User Testing](#user-testing)
-    * [User Stories Testing](#user-stories-testing)
-    * [Browser Testing](#browser-testing)
-    * [Responsiveness Testing](#responsiveness-testing)
-* [Bugs](#bugs)
-    * [Known Bugs](#known-bugs)
-    * [Fixed Bugs](#fixed-bugs)
-* [Validator Testing](#validator-testing)
-    * [HTML Validator](#html-validator)
-    * [CSS Validator](#css-validator)
-    * [Lighthouse Testing](#lighthouse-testing)
-    * [Wave Webaim Validator](#wave-webaim-validator)
-
 ---
 
 ### User Testing
