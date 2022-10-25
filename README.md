@@ -28,14 +28,14 @@ This site has been built with the "mobile first" approach in mind. This results 
 The colors chosen for this site follow the natural colors of the landscapes shown in the images. Colors are minimalistic and supportive, but do not distrub the look of the images.
 I used [Coolors.co](https://coolors.co/f7f7f2-e4e6c3-a8b39c-222725-121113) to choose a visually appealing set of colors.
 
-![Color Scheme](docs/testing/Coolors_Alpstein_Mountains.png)
+![Color Scheme](docs/testing/coolors_alpstein_mountains.png)
 
 ### Typography
 I used [Google Fonts](https://fonts.google.com/) to choose and import clear and appealing fonts. "EB Garamond" for headers and "Playfair Display" for text. "Serif" acts as a backup font.
 
-![EB Garamond](docs/testing/Font_EB_Garamond.png)
+![EB Garamond](docs/testing/font_eb_garamond.png)
 
-![Playfair Display](docs/testing/Font_Playfair_Display.png)
+![Playfair Display](docs/testing/font_playfair_display.png)
 
 
 ### Wireframes
@@ -45,14 +45,14 @@ Click to enlarge Wireframe drawings.
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframes](docs/wireframes/Mobile.png)
+![Mobile Wireframes](docs/wireframes/mobile.png)
 
 </details>
 
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframes](docs/wireframes/Desktop.png)
+![Desktop Wireframes](docs/wireframes/desktop.png)
 
 </details>
 

@@ -54,19 +54,19 @@ The project has been developed on a Mac with Firefox as main browser. Safari has
 
 - Firefox
 
-![Firefox Browser](docs/testing/Firefox.png)
+    ![Firefox Browser](docs/testing/firefox.png)
 
 - Safari
 
-![Safari Browser](docs/testing/Safari.png)
+    ![Safari Browser](docs/testing/safari.png)
 
 - Chrome
 
-![Chrome Browser](docs/testing/Chrome.png)
+    ![Chrome Browser](docs/testing/chrome.png)
 
 - Edge
 
-![Edge Browser](docs/testing/Edge.png)
+    ![Edge Browser](docs/testing/edge.png)
 
 ### Responsiveness Testing
 
@@ -75,19 +75,37 @@ However, here some snapshots taken on an iPhone 12 Pro:
 
 - iPhone
 
-![iPhone1](docs/testing/iPhone1.png)
+    ![iPhone1](docs/testing/iphone1.png)
 
-![iPhone2](docs/testing/iPhone2.png)
+    ![iPhone2](docs/testing/iphone2.png)
 
-![iPhone3](docs/testing/iPhone3.png)
+    ![iPhone3](docs/testing/iphone3.png)
 
-![iPhone4](docs/testing/iPhone5.png)
+    ![iPhone4](docs/testing/iphone5.png)
 
-![iPhone5](docs/testing/iPhone6.png)
+    ![iPhone5](docs/testing/iphone6.png)
 
 - iPad
 
-![iPad](docs/testing/iPad.png)
+    ![iPad](docs/testing/ipad.png)
+
+- Desktop
+
+    - Firefox
+
+        ![Firefox Browser](docs/testing/firefox.png)
+
+    - Safari
+
+        ![Safari Browser](docs/testing/safari.png)
+
+    - Chrome
+
+        ![Chrome Browser](docs/testing/chrome.png)
+
+    - Edge
+
+        ![Edge Browser](docs/testing/edge.png)
 
 ---
 
