@@ -50,10 +50,12 @@ h3 {
     text-decoration: none;
 }
 
+/* Underline the currently active site */
 .active {
     border-bottom: 2px solid #121113;
 }
 
+/* Change color when hovering over the links */
 .nav-list a:hover {
     color: #656d61;
     border-bottom: 2px solid #a8b39c;
@@ -61,7 +63,6 @@ h3 {
 
 /* Hero Image with Title and Zoom Effect */
 /* Base Hero concept inspired by Love Running Project */
-
 .hero-outer {
     height: 600px;
     width: 100%;
@@ -72,7 +73,6 @@ h3 {
 /* Regex to match everything which stats with hero-image-
 Unfortunately there seems to be a bug with background-size property
 I had to specify it under each id selector in order to work */
-
 [id^=hero-image-]{
     height: 100%;
     background-size: cover;
@@ -132,7 +132,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Hero image section of contacts confirmation page w. different values than other hero image parts */
-
 #hero-outer-conf {
     height: 900px;
     width: 100%;
@@ -161,7 +160,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Facts & History Section */
-
 #facts-section {
     background-color: #F7F7F2;
     padding-bottom: 25px;
@@ -193,7 +191,6 @@ I had to specify it under each id selector in order to work */
 }
 
 /* Video Section w. Flexbox to be responsive and future proof to add more video boxes*/
-
 .video-container {
     display: flex;
     justify-content: center;

@@ -278,7 +278,7 @@ Please note that in order to directly open the project in Gitpod, you need to ha
 ### Code
 
 While creating this project, I did a lot of research *on how to do things* where I took the concepts learned in the LMS of Code Institute and did some further research. The most important resoucre was [w3schools.com](https://www.w3schools.com).
-Nverethless, I have used the following resources in order to understand the related concept:
+Nevertheless, I have used the following resources in order to understand the related concept:
 
 - Code for the hero image, footer and the google maps section was inspired from Code Institute's Love Running Walkthrough Project and the Coders Coffeehouse project, with some tweaks in order to fit my page
 - [WikiHow's](https://www.wikihow.com/Embed-a-Google-Map-in-HTML) article about how to embed Google Maps helped me to understand how to add it.

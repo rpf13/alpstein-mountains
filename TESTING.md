@@ -113,7 +113,7 @@ However, here some snapshots taken on an iPhone 12 Pro:
 
 ### Known Bugs
 
-While doing the CSS part and styling, I did use a regular expression in order to summary the hero image part, which is shared among all of the hero images. It worked fine, however, there seems to be a gut that the baground-size attribute get's ignored. I could not make it to run, once I had this property in the regex, I had to specify under each id selector.
+While doing the CSS part and styling, I did use a regular expression in order to summary the hero image part, which is shared among all of the hero images. It worked fine, however, there seems to be a but, that the background-size attribute get's ignored. I could not make it to work, while I had this property in the regex, therefore I had to specify under each id selector.
 
 ```css
 [id^=hero-image-]{
